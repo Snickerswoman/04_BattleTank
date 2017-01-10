@@ -1,0 +1,24 @@
+Conecept
+Heah-to-head, open-world tank combat game
+
+The terrain will be used for tactical advantage
+
+The focus  will be on flow and feel
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Rules
+You can move anywhere in the terrain, which is surrounded by mountains
+
+Bother players start with finite health and ammo
+
+Each direct hit takes away health
+
+Last players standing wins
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Requirements
+SFX: Gun firing, explosion, barrel moving, turret moving, engine sound
+
+Static mesh: Simple tank comprising tracks, body, turret and barrel
+
+Textures: Later-on we'll want to add for visual flare
+
+Music: Background music to creat tension
