@@ -7,8 +7,8 @@
 #include "TankPlayerController.generated.h" // Must be the last include
 
 /**
- * 
- */
+*
+*/
 UCLASS()
 class BATTLETANK_API ATankPlayerController : public APlayerController
 {
@@ -34,5 +34,9 @@ private:
 	UPROPERTY(EditAnywhere)
 		float CrosshairYLocation = 0.3333;
 
+	UPROPERTY(EditAnywhere)
+		float LineTraceRange = 1000000;
+
 	bool GetLookDirection(FVector2D ScreenLocation, FVector& LookDirection) const;
+	bool GetLookVectorHitLocation(FVector LookDirection, FVector& HitLocation) const;
 };
